@@ -1,0 +1,178 @@
+\documentclass[12pt,demo]{article} %% Remove demo in your file.
+\usepackage[demo]{graphicx}
+\graphicspath{ {C:\Users\Kuba\Desktop\stepik14} }
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{lipsum}% Used for dummy text.
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+%-----------------------------------------------------------------
+\begin{document}
+% ----------------------------------------------------------------
+\begin{titlepage}
+\newgeometry{left=7.5cm} %defines the geometry for the titlepage
+\pagecolor{titlepagecolor}
+\noindent
+\color{white}
+\makebox[0pt][l]{\rule{1.3\textwidth}{1pt}}
+\par
+\noindent
+\textbf{\textsf{Jakub Szulc}} 
+\vfill
+\noindent
+{\huge \textsf{Zadanie 1}}
+\vskip\baselineskip
+\noindent
+\textsf{28-01-2022}
+\end{titlepage}
+\restoregeometry % restores the geometry
+\nopagecolor% Use this to restore the color pages to white
+
+% ----------------------------------------------------------------
+\thispagestyle{plain}
+\newpage
+\section*{Spis Treści}
+Streszczenie...................................................................................................Strona 2\\
+\textbf{Rozdział 1}...................................................................................................Strona 3\\
+Sekcja 1.........................................................................................................Strona 3\\
+\emph{Podsekcja 1}....................................................................................................Strona 4\\
+Sekcja 2..........................................................................................................Strona 4\\
+\emph{Podsekcja 1}....................................................................................................Strona 5\\
+\emph{Podsekcja 2}....................................................................................................Strona 6\\
+Sekcja 3.........................................................................................................Strona 6\\
+\textbf{Rozdział 2}...................................................................................................Strona 7\\
+Sekcja 1.........................................................................................................Strona 7\\
+Sekcja 1.........................................................................................................Strona 7\\
+\emph{Podsekcja 1}....................................................................................................Strona 7\\
+Streszczenie...................................................................................................Strona 8\\
+\newpage
+\begin{abstract}
+\textbf{Uniwersum Szkolnej 17} - ogół postaci, miejsc i zdarzeń związanych z losami rezydentów domku drewnianego przy ul. Szkolnej 17 w Białymstoku.
+Miejsce szalonych perypetii \textbf{\textit{Krzysztofa Kononowicza}}, \textbf{\textit{Wojciecha Suchodolskiego}} i ich licznych znajomych. Uniwersum jest w pełni kompatybilne ze światem zewnętrznym i każdy może je swobodnie edytować (poprzez np. wysłanie paczki bożej). Nie obowiązują tu tradycyjne prawa logiki. Obecnie przez lateksową cenzurę niestety utraciło większość swojego klasycznego klimatu. Trwa powszechne oczekiwanie na dzień jego wyzwolenia, który ma kiedyś nastąpić \footnote{Bibliografia Punkt 1}
+\end{abstract}
+\newpage
+\part*{\emph{Rozdział 1}}
+\section*{Sekcja 1}
+\lipsum[1-5]
+\subsection*{Podsekcja 1}
+The well known Pythagorean theorem \(x^2 + y^2 = z^2\) was 
+proved to be invalid for other exponents. 
+Meaning the next equation has no integer solutions:
+
+\[ x^n + y^n = z^n \]
+
+\section*{Sekcja 2}
+\textbf{Krzysztof Kononowicz} (ur. 21 stycznia 1963 w Kętrzynie) – białostocki youtuber, polityk, aktywista i działacz społeczny, jedno z jąder Uniwersum Szkolnej 17.\footnote{Bibliografia Punkt 2}
+
+\begin{figure}[h]
+\caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
+\centering
+\includegraphics[width=0.5\textwidth]{wyborczy}
+\label{marker2}
+\end{figure}
+
+Człowiek wielu talentów i umiejętności, z zawodu kierowca pojazdów osobowych, donosiciel, kaznodzieja, męczennik, moralizator, zdun, zwierzchnik białostockiej policji, adwokat, szef ochrony papieża Jana Pawła II, błogosławiony Kościoła Katolickiego, poseł na Sejm RP (od czasu do czasu również senator), potomek Józefa Piłsudskiego, kandydat na kandydata, prezydent Bombasu, bohater i honorowy mieszkaniec Białegostoku i tak dalej, i tak dalej.
+
+\subsection*{Podsekcja 1}
+Siedzibą Biura interwencji Obywatelskich\footnote{Bibliografia Punkt 3} jest dom należący do Krzysztofa Kononowicza, zlokalizowany przy ul. Szkolnej 17 w Białymstoku. Biuro Interwencji Obywatelskiej działa w szerokim zakresie tj. edukacji, kultury i sztuki, kombatantów, młodzieży, pomocy społecznej, ochrony środowiska, zwierząt, niepełnosprawnych i zdrowia, turystyki oraz współpracy międzynarodowej. Prowadzi także zakrojone na szeroką skalę działania profilaktyczne w zakresie przeciwdziałania olkoholizmowi i zażywaniu środków oburzających. Jest to pic na wodę, ponieważ w rzeczywistości Knur pisze tam donosy na wszystkich i na wszystko.
+\subsection*{Podsekcja 2}
+\begin{wrapfigure}{r}{0.25\textwidth}
+
+    \centering
+    \includegraphics[width=0.25\textwidth]{flagabombasu}    \caption{Obrazek w tekście}
+    \label{marker3}
+\end{wrapfigure}
+
+There are several ways to plot a function of two variables, 
+depending on the information you are interested in. For 
+instance, if you want to see the mesh of a function so it 
+easier to see the derivative you can use a plot like the 
+one on the left.
+
+
+On the other side, if you are only interested on
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use 
+the contour plot, you can use the contour plot, 
+you can use the contour plot, like the one on the left.
+
+On the other side, if you are only interested on 
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use the 
+contour plot, you can use the contour plot, 
+you can use the contour plot, 
+like the one on the left.
+
+\newpage
+\section*{Sekcja 3}
+\textbf{Wojna iławsko-lateksowa} (inaczej: Iławskie tango, Kampania antylateksowa, Iławski blitzkrieg) – konflikt zbrojny między \emph{Łukaszem „Olgierdano” Wójcikiem} a \emph{Sławomirem „Sradkiem” Nowakiem} i jego sługusami.
+
+Uniwersum Szkolnej 17 od czerwca 2020 roku jest uciskane przez totalitarny reżim lateksów, dowodzony przez Sradka. Pomimo mniejszych i większych wystąpień i powstań ludowych (akcja Mercedesiarza, nitrosafaryzm w czasie zachęcania Majora do kirania przez Sławka) czy działalność youtuberów punktujących Sławka takich jak na przykład Sebastian Gałecki, Uniwersum nie udało się odzyskać.
+
+Po utracie (nieznacznych) wpływów w Koalicji Antylateksowej przez Pampaliniego oraz jego konfliktem z Olgierdano, ten drugi otrzymał poparcie ludowe i niczym Józef Piłsudski wyruszył na wielofrontową wojnę z lateksami. Po przejęciu władzy przez Iławskiego Gita, Koalicja rozbudowała się i zyskała na znaczeniu. Pierwszy raz od początku władzy Sławka na Szkolnej udało się zbudować silną opozycję.\footnote{Bibliografia Punkt 4}
+
+\begin{longtable}[c]{| c | c |}
+ \caption{dane wojny iławsko-lateksowej\label{long}}\\
+ \hline
+ \multicolumn{2}{|c|}{\textbf{Strony konfliktu}}\\
+ \hline
+ Antylateksy & Lateksy\\
+ \hline
+ \endfirsthead
+ \hline
+ \multicolumn{2}{|c|}{Continuation of Table \ref{long}}\\
+ \hline
+ co to robi & bez sensu\\
+ \hline
+ \endhead
+
+ \hline
+ \endfoot
+
+ \hline
+ \multicolumn{2}{| c |}{End of Table}\\
+ \hline\hline
+ \endlastfoot
+ \label{marker}
+
+ Olgierdano & Sławek\\
+ Knyszyn     & Mexicano\\
+ Perski        & Rafał K\\
+ Fiodor       & Aron\\
+ Piotr WWA& Paweł WWA\\
+ Messi & Pato    \\
+ Pampalini & Organista\\
+ \end{longtable}
+
+\newpage
+\part*{\emph{Rozdział 2}}
+\section*{Sekcja 1}
+\lipsum[1-1]
+\section*{Sekcja 2}
+\lipsum[1-1]
+\subsection*{Podsekcja 1}
+\textbf{Jarosław "Mexicano" Andrzejewski} (ur. 22 lutego 1976 w Białymstoku) – podlaski youtuber, vloger, podróżnik, survivalowiec, streamer, gamer, raper, sommelier moczu, saper, ambasador marki Żubr, deko gangster, budowlaniec, były redaktor Uniwersum Szkolnej 17. Jego imię wzięło się najprawdopodobniej od nazwiska panieńskiego jego męczeńskiej matki Rosław-Jarosławska.
+\newpage
+\centering\huge\textbf{\textit{Podsumowanie}}
+\section{odwolanie do tabeli i obrazków}
+\small Tabela \ref{marker} pokazuje strony konfliktu w bombasie.
+\\Odwołanie do rysunku \ref{marker2}
+\\Kolejne odwołanie do rysunku \ref{marker3}
+\section{Bibliografia}
+\subsection*{1}https://pl.wikipedia.org
+\subsection*{2}https://inf.ug.edu.pl
+\subsection*{3}https://www.youtube.com/
+\subsection*{4}https://kolesa.kz/
+\end{document}
